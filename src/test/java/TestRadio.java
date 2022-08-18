@@ -4,9 +4,9 @@ import ru.netology.radio.Radio;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestRadio {
+    Radio rad = new Radio();
     @Test
     public void setOverMaxRadioStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(10);
 
@@ -19,7 +19,6 @@ public class TestRadio {
 
     @Test
     public void setOverMinRadioStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(-1);
 
@@ -32,7 +31,6 @@ public class TestRadio {
 
     @Test
     public void setRadioStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(5);
 
@@ -45,7 +43,6 @@ public class TestRadio {
 
     @Test
     public void setNextStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(6);
         rad.next();
@@ -59,7 +56,6 @@ public class TestRadio {
 
     @Test
     public void setOverMaxNextStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(9);
         rad.next();
@@ -72,7 +68,6 @@ public class TestRadio {
 
     @Test
     public void setOverMinPrevStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(0);
         rad.prev();
@@ -84,7 +79,6 @@ public class TestRadio {
 
     @Test
     public void setPrevStation() {
-        Radio rad = new Radio();
 
         rad.setCurrentRadioStation(9);
         rad.prev();
@@ -96,7 +90,6 @@ public class TestRadio {
 
     @Test
     public void setDownVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(10);
         rad.down();
@@ -107,7 +100,6 @@ public class TestRadio {
     }
     @Test
     public void setOverMinDownVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(0);
         rad.down();
@@ -118,7 +110,6 @@ public class TestRadio {
     }
     @Test
     public void setIncreaseVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(2);
         rad.increase();
@@ -129,7 +120,6 @@ public class TestRadio {
     }
     @Test
     public void setOverMaxIncreaseVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(10);
         rad.increase();
@@ -140,7 +130,6 @@ public class TestRadio {
     }
     @Test
     public void setOverMaxVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(12);
         int expected = 0;
@@ -152,7 +141,6 @@ public class TestRadio {
 
     @Test
     public void setOverMinVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(-1);
         int expected = 0;
@@ -163,7 +151,6 @@ public class TestRadio {
     }
     @Test
     public void setVolume() {
-        Radio rad = new Radio();
 
         rad.setCurrentVolume(5);
         int expected = 5;
