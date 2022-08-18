@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a79104f6-a864-42cd-a2c3-2110f37111f3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRadio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,35 +39,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/homeworks/Java/Radio/src/main/java",
-    "last_opened_file_path": "C:/homeworks/Java/Radio"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/homeworks/Java/Radio/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/homeworks/Java/Radio&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRadio.setDownVolume">
-    <configuration name="TestRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRadio.setPrevOverMinRadioStation30">
+    <configuration name="TestRadio.setIncreaseOverMaxRadioStation30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRadio" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="setIncreaseOverMaxRadioStation30" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRadio.setDownVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRadio.setNextOverMaxRadioStation30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRadio" />
-      <option name="METHOD_NAME" value="setDownVolume" />
+      <option name="METHOD_NAME" value="setNextOverMaxRadioStation30" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRadio.setOverMinVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRadio" />
+      <option name="METHOD_NAME" value="setOverMinVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRadio.setPrevOverMinRadioStation30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRadio" />
+      <option name="METHOD_NAME" value="setPrevOverMinRadioStation30" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRadio.setRadioStation30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRadio" />
+      <option name="METHOD_NAME" value="setRadioStation30" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,8 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRadio.setDownVolume" />
-        <item itemvalue="JUnit.TestRadio" />
+        <item itemvalue="JUnit.TestRadio.setPrevOverMinRadioStation30" />
+        <item itemvalue="JUnit.TestRadio.setNextOverMaxRadioStation30" />
+        <item itemvalue="JUnit.TestRadio.setIncreaseOverMaxRadioStation30" />
+        <item itemvalue="JUnit.TestRadio.setRadioStation30" />
+        <item itemvalue="JUnit.TestRadio.setOverMinVolume" />
       </list>
     </recent_temporary>
   </component>
